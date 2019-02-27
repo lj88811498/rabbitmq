@@ -1,0 +1,9 @@
+1.将docker-rabbitmq-cluster-master拷贝到linux服务器上
+2.进入server。生成镜像
+docker build -t rabbitmq1 .
+3.进入cluster 启动docker-compose.yml
+docker-compose up -d
+然后可以看到启动了1,2,3 3个容器
+
+验证:
+在浏览器输入ip:15672 guest/guest 即可看到集群
