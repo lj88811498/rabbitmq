@@ -1,0 +1,13 @@
+安装Docker-Compose
+yum添加源
+[ root@localhost]# yum -y install epel-release
+ 
+安装python-pip
+[root@localhost]# yum -y install python-pip
+ 
+安装docker-compose
+[root@localhost]# pip install -U docker-compose
+ 
+[root@localhost ~]# docker-compose -v
+docker-compose version 1.21.2, build a133471
+--------------------- 
